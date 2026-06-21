@@ -100,7 +100,7 @@ export default function Reports() {
       <div className="p-6">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Reports</h1>
-          <p className="text-gray-500 mt-1">Manage user reports</p>
+          <p className="text-gray-500 mt-1">Manage User Reports</p>
         </div>
 
         {/* Filters */}
