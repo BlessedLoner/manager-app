@@ -479,7 +479,7 @@ export default function Conversations() {
                     onClick={() => handleDateRangeChange("today")}
                     className={`px-3 py-1.5 text-sm rounded-lg transition ${
                       operatorDateRange.preset === "today"
-                        ? "bg-primary text-white"
+                        ? "bg-blue-500 text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -489,7 +489,7 @@ export default function Conversations() {
                     onClick={() => handleDateRangeChange("yesterday")}
                     className={`px-3 py-1.5 text-sm rounded-lg transition ${
                       operatorDateRange.preset === "yesterday"
-                        ? "bg-primary text-white"
+                        ? "bg-blue-500 text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -499,7 +499,7 @@ export default function Conversations() {
                     onClick={() => handleDateRangeChange("week")}
                     className={`px-3 py-1.5 text-sm rounded-lg transition ${
                       operatorDateRange.preset === "week"
-                        ? "bg-primary text-white"
+                        ? "bg-blue-500 text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -509,7 +509,7 @@ export default function Conversations() {
                     onClick={() => handleDateRangeChange("month")}
                     className={`px-3 py-1.5 text-sm rounded-lg transition ${
                       operatorDateRange.preset === "month"
-                        ? "bg-primary text-white"
+                        ? "bg-blue-500 text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -519,7 +519,7 @@ export default function Conversations() {
                     onClick={() => handleDateRangeChange("all")}
                     className={`px-3 py-1.5 text-sm rounded-lg transition ${
                       operatorDateRange.preset === "all"
-                        ? "bg-primary text-white"
+                        ? "bg-blue-500 text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -604,7 +604,7 @@ export default function Conversations() {
                 </h3>
                 {loadingStats ? (
                   <div className="text-center py-8">
-                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto"></div>
                   </div>
                 ) : operatorMessages.length === 0 ? (
                   <div className="text-center py-8 text-gray-500">

@@ -46,7 +46,7 @@ export default function BlockedProfiles() {
       });
 
       const res = await fetch(
-        `https://operator-api-production-de23.up.railway.app/manager/blocked-profiles?${params.toString()}`,
+        `http://operator-api-production-de23.up.railway.app/manager/blocked-profiles?${params.toString()}`,
         {
           headers: {
             "Content-Type": "application/json",
